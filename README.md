@@ -1,1 +1,11 @@
-# EShop
+Architecture:
+  -Front-End: HTML
+  -Back-End(Docker Host):
+    -Web App (ASP.NET Core MVC)
+    -API Gateway
+    -Microservices
+      -Identity Microservice  (SQL Server Database)
+      -Catalog Microservice   (SQL Server Database)
+      -Ordering Microservice  (SQL Server Database)
+      -Basket Microservice    (Redis Cache)
+    -Event Bus (RabbitMQ)
