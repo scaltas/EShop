@@ -1,0 +1,1 @@
+Experiments on a sample Eshop application based on the repository https://github.com/aspnetrun/run-aspnetcore-microservices
