@@ -1,24 +1,16 @@
 Experiments on a sample Eshop application based on the repository https://github.com/aspnetrun/run-aspnetcore-microservices
 
-Patterns, Architecture, Principles:
-	-Microservices
-	-REST API
-	-Containerization (Docker)
-	-CQRS
+#### Patterns, Architecture, Principles:
 
-Technologies:
-	-Framework:
-		- .NET 5
+* Microservices
+* REST API
+* Containerization (Docker)
+* CQRS
 
-	-Databases:
-		-Mongodb, PostgreSQL, MSSQL, Redis
-		-Dapper & EF Core
-		
-	-Communication:
-		-RabbitMQ, gRPC
-		
-	-Api Gateway:
-		-Ocelot
-		
-	-Monitoring:
-		-Portainer
+#### Technologies:
+
+* .NET 5 as framework
+* SQL/NOSQL Databases (Mongodb, PostgreSQL, MSSQL, Redis)
+* Communication with RabbitMQ and gRPC
+* Api Gateway with Ocelot
+* Monitoring with Portainer
